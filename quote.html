@@ -1,0 +1,9 @@
+<div class="btn-group" role="group" ng-repeat="word in quote track by $index">
+  <button-directive ng-repeat="letter in word track by $index" letter-passed="letter" curr-selected="currentlySelected"></button-directive>
+  &emsp;
+</div>
+<div style="margin-top:20px">
+  <button type="button" class='lhButt btn' >Little Hint</button>
+  <button type="button " class="bhButt btn ">Big Hint</button>
+  <p class="victory" style="display:none; font-size:2em">CHICKEN DINNER FOR THE WINNER WINNER!!!</p>
+</div>
