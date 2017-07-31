@@ -28,8 +28,8 @@ app.service("quoteSrvc", function(theSrvc, $timeout) {
   }
 
   var nothing = new Style('rgb(2,117,216)', "white");
-  var highlighted = new Style('rgb(185,210,60)', 'white');
-  var selected = new Style('white', 'white')
+  var highlighted = new Style('pink', 'white');
+  var selected = new Style('rgb(185,210,60)', 'white')
   var certain = new Style('black', 'white')
   var punctuation = new Style('black', 'white')
   var changed = new Style('white', 'black')
