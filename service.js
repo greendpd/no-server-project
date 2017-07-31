@@ -26,7 +26,7 @@ app.service('theSrvc', function($http) {
   this.getQuote = function() {
     return $http({
       method: "GET",
-      url: "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=2",
+      url: "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]="+Math.floor(Math.random()*40+2)
     })
   }
 

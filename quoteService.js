@@ -193,7 +193,6 @@ app.service("quoteSrvc", function(theSrvc, $timeout) {
     }
   }
 
-
   this.mouseEnters = function(className) {
     if (theSrvc.finished()) {
       clearAll();
@@ -205,9 +204,6 @@ app.service("quoteSrvc", function(theSrvc, $timeout) {
     }
     victoryCheck();
   }
-
-
-
 
   this.isClicked = function() {
     return clicked;
